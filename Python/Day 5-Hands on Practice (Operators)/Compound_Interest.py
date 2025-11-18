@@ -1,0 +1,6 @@
+p=float(input("Enter the principal amount: "))
+r=float(input("Enter the anuual interest rate: "))
+n=int(input("Enter the number of times: "))
+t=float(input("Enter the time in years: "))
+A=p*(1+(r//n))**(n*t)
+print("The final amount is: %.2f"%(A))
